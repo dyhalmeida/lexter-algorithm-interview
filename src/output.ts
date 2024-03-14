@@ -1,11 +1,6 @@
-export interface Output {
-  entryId: number;
-  fullPath: string;
-  currentPath: string;
-  children: Output[];
-}
+import { IOutputProps } from "./core/interfaces/output.interface";
 
-export const outputList: Output[] = [
+export const outputList: IOutputProps[] = [
   {
     entryId: 1,
     fullPath: "root1",

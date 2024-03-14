@@ -1,9 +1,6 @@
-export interface Input {
-  entryId: string;
-  path: string[];
-}
+import { IInputProps } from "./core/interfaces/input.interface";
 
-export const inputList: Input[] = [
+export const inputList: IInputProps[] = [
   { entryId: "1", path: ["root1"] },
   {
     entryId: "10",
