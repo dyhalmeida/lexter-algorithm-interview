@@ -1,13 +1,13 @@
 {
   "name": "lexter-algorithm",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lexter Algorithm Test Interview",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts",
+    "start:api": "PORT=3333 ts-node ./src/index.ts",
     "test": "jest"
   },
-  "author": "",
+  "author": "Diego Almeida",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^28.1.2",
