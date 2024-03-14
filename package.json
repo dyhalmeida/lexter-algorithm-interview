@@ -6,6 +6,7 @@
   "scripts": {
     "start:api": "PORT=3333 ts-node ./src/index.ts",
     "start:algorithm": "ts-node ./src/algorithm/index.ts",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "Diego Almeida",
